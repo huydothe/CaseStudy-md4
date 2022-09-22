@@ -7,8 +7,9 @@ const productSchema = new mongoose_1.Schema({
     price: Number,
     stocking: Boolean,
     description: String,
-    made_in: String
+    made_in: String,
+    image: String
 });
-const ProductModel = (0, mongoose_1.model)('products', productSchema);
+const ProductModel = (0, mongoose_1.model)('views', productSchema);
 exports.default = ProductModel;
 //# sourceMappingURL=product.model.js.map

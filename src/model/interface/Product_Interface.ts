@@ -4,5 +4,6 @@ export interface IProduct{
     price : number;
     stocking : boolean;
     description : string;
-    made_in : string
+    made_in : string;
+    image : string;
 }

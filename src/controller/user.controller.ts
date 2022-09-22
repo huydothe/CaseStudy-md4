@@ -1,4 +1,3 @@
-import ProductModel from "../model/product.model";
 import {Request,Response,NextFunction} from "express";
 
 export class UserController {
@@ -6,7 +5,7 @@ export class UserController {
     productModel;
 
     constructor() {
-        this.productModel = new ProductModel();
+
     };
 
     userList(req:Request, res:Response, next:NextFunction){

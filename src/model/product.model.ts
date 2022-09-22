@@ -7,10 +7,11 @@ const productSchema = new Schema<IProduct>({
     price : Number,
     stocking : Boolean,
     description : String,
-    made_in : String
+    made_in : String,
+    image : String
 });
 
-const ProductModel = model('products', productSchema);
+const ProductModel = model('views', productSchema);
 
 export default ProductModel;
 

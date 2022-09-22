@@ -5,4 +5,5 @@ export interface IProduct {
     stocking: boolean;
     description: string;
     made_in: string;
+    image: string;
 }
